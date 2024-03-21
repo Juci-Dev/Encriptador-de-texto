@@ -6,9 +6,11 @@ Este projeto foi desenvolvido para criptografar e descriptografar mensagens que 
 
 Requisitos:
 
-Deve funcionar apenas com letras minúsculas
+Deve funcionar apenas com letras minúsculas.
 
-Não devem ser utilizados letras com acentos nem caracteres especiais
+Não devem ser utilizados letras com acentos nem caracteres especiais.
+
+Quando não atender um dos requisitos será exibido uma notificação acima dos botões. 
 
 Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
 
