@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/IMG/LOGOALURA.png" class="logo" alt="Alura" />
+    </header>
+    <main>
+      <section class="left-encriptador">
+        <textarea
+          class="encriptar"
+          placeholder="Digite texto aqui..."
+        ></textarea>
+        <div class="encriptador-aviso">
+          <img
+            src="./assets/IMG/aviso.png"
+            alt="Imagem aviso"
+            class="img-aviso"
+          />
+          <p class="texto-aviso">Apenas letras minúsculas e sem acentos.</p>
+        </div>
+        <div class="encriptador-botons">
+          <button type="submit" class="btn-encriptar">Encriptar</button>
+          <button type="submit" class="btn-desencriptar">Desencriptar</button>
+        </div>
+      </section>
+      <section class="right">
+        <div class="right-encriptador">
+          <img
+            src="./assets/IMG/boneco1.png"
+            alt="Imagem boneco"
+            class="img-boneco"
+          />
+          <p class="texto-um">Nenhum mensagem foi encontrada!</p>
+          <p class="texto-dois">
+            Insira o texto que deseja encriptar ou desencriptar.
+          </p>
+        </div>
+        <textarea type="mensagem" class="mensagem-final" readonly></textarea>
+        <button type="submit" class="btn-copiar">Copiar</button>
+      </section>
+    </main>
+    <footer>
+      <p class="copyright">
+        &copy; copyright 2024 - Encriptador de texto - Desenvolvido por Juciele
+        Santos
+      </p>
+      <a href="https://github.com/Juci-Dev" rel="GitHub">
+        <img src="assets/IMG/github__Log.png" alt="GitHub" class="github" />
+      </a>
+    </footer>
+
+    <script src="./assets/JS/script.js"></script>
+  </body>
+</html>
